@@ -1,6 +1,6 @@
 <?php
 
-  echo "<p align="center">&nbsp;&nbsp; <span lang="th">รายงานสถานการโควิด-19 แยกจังหวัด</span></p>";
+  echo "<p align="center">รายงานสถานการโควิด-19 แยกจังหวัด</p>";
   $json = file_get_contents("https://covid19.ddc.moph.go.th/api/Cases/today-cases-by-provinces");
   $data = json_decode($json);
   
