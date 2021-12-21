@@ -4,7 +4,7 @@
   $data = json_decode($json);
   
   echo "<table border='1'>";
-  echo "<TITLE><b>รายงานสถานการโควิด-19 แยกจังหวัด</TITLE></b>"
+  echo "<title><b>รายงานสถานการโควิด-19 แยกจังหวัด</title></b>"
   echo "<tr><td><b>ลำดับ</td></b><td><b>จังหวัด</td></b></tr>";
   foreach($data as $key=>$val){
     echo "<tr>";
