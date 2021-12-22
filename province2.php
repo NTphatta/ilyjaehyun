@@ -4,7 +4,6 @@
   $json = file_get_contents("https://covid19.ddc.moph.go.th/api/Cases/today-cases-by-provinces");
   $data = json_decode($json);
   
-  echo "<body>";
   echo "<table border='8'>";
   echo "<tr bgcolor="pink"><td><b>ลำดับ</b></td><td><b>จังหวัด</b></td><td><b>ยอดผู้ป่วยใหม่</b></td><td><b>ยอดผู้ป่วยรวม</b></td><td><b>ยอดผู้ป่วยใหม่ภายในประเทศ</b></td><td><b>ยอดผู้ป่วยรวมในประเทศ</b></td>
   <td><b>ยอดผู้เสียชีวิตใหม่</b></td><td><b>ยอดผู้เสียชีวิตรวม</b></td><td><b>วันที่</b></td></tr>";
@@ -40,5 +39,4 @@
     echo "</tr>";
   }
   echo "</table>"; 
-  echo "<body>";
 ?>
