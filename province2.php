@@ -4,7 +4,7 @@
   $json = file_get_contents("https://covid19.ddc.moph.go.th/api/Cases/today-cases-by-provinces");
   $data = json_decode($json);
   
-  $bgcolor[0] = "#CCCCFF"; $bgcolor[1] = "#CCCCFF"; $bgcolor[2] = "#CCCCFF"; $bgcolor[3] = "#CCCCFF"; $bgcolor[4] = "#CCCCFF"; $bgcolor[5] = "#CCCCFF"; $bgcolor[6] = "#CCCCFF"; 
+  $bgcolor[0] = "#FF9966"; $bgcolor[1] = "#CCCCFF"; $bgcolor[2] = "#CCCCFF"; $bgcolor[3] = "#CCCCFF"; $bgcolor[4] = "#CCCCFF"; $bgcolor[5] = "#CCCCFF"; $bgcolor[6] = "#CCCCFF"; 
 $bgcolor[7] = "#CCCCFF"; $bgcolor[8] = "#CCCCFF"; 
   echo "<table border='8'>";
   echo "<tr><td><b>ลำดับ</td></b><td><b>จังหวัด</td></b><td><b>ยอดผู้ป่วยใหม่</td></b><td><b>ยอดผู้ป่วยรวม</td></b><td><b>ยอดผู้ป่วยใหม่ภายในประเทศ</td></b><td><b>ยอดผู้ป่วยรวมในประเทศ</td></b>
