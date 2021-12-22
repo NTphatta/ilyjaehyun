@@ -5,7 +5,7 @@
   $data = json_decode($json);
   
   echo "<table border='8'>";
-  echo "<tr bgcolor="pink"><td><b>ลำดับ</td></b><td><b>จังหวัด</td></b><td><b>ยอดผู้ป่วยใหม่</td></b><td><b>ยอดผู้ป่วยรวม</td></b><td><b>ยอดผู้ป่วยใหม่ภายในประเทศ</td></b><td><b>ยอดผู้ป่วยรวมในประเทศ</td></b>
+  echo "<tr><td bgcolor="pink"><b>ลำดับ</td></b><td><b>จังหวัด</td></b><td><b>ยอดผู้ป่วยใหม่</td></b><td><b>ยอดผู้ป่วยรวม</td></b><td><b>ยอดผู้ป่วยใหม่ภายในประเทศ</td></b><td><b>ยอดผู้ป่วยรวมในประเทศ</td></b>
   <td><b>ยอดผู้เสียชีวิตใหม่</td></b><td><b>ยอดผู้เสียชีวิตรวม</td></b><td><b>วันที่</td></b></tr>";
   foreach($data as $key=>$val){
     echo "<tr>";
