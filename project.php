@@ -138,12 +138,12 @@
           <!-- Loop -->
           <tr>
             <tr>
-            <td>  </td>
-            <td>  </td>
-            <td>  </td>
-            <td>  </td>
-            <td>  </td>
-            <td>  </td>
+            <td><?php echo ($key+1); ?></td>
+            <td><?php echo $val->province; ?></td>
+            <td><?php echo $val->new_case; ?></td>
+            <td><?php echo $val->total_case_excludeabroad; ?></td>
+            <td><?php echo $val->total_case; ?></td>
+            <td><?php echo $val->total_death; ?></td>
           </tr>
           <tr>
             <td> - </td>
