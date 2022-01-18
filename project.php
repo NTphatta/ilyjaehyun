@@ -137,28 +137,23 @@
           <!-- แก้ไขส่วนที่ 3 -->
           <!-- Loop -->
           <tr>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-          </tr>
-          <tr>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-          </tr>
-          <tr>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
+            foreach($data as $key=>$val){
+    echo "<tr align='center'>";
+    echo "<td bgcolor='#FFFF99'>";
+    echo ($key+1);
+    echo "</td>";
+    echo "<td bgcolor='#FFCC66'>";
+    echo $val->province;
+    echo "</td>";
+    echo "<td bgcolor='#FF9966'>";
+    echo $val->new_case;
+    echo "</td>";
+    echo $val->total_case_excludeabroad;
+    echo "</td>";
+    echo "<td bgcolor='#99FF99'>";
+    echo $val->total_death;
+    echo "</td>";
+    echo "<td bgcolor='#99FF33'>";
           </tr>
         </table>
       </div>
