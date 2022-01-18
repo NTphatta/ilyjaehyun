@@ -53,7 +53,7 @@
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="profile.jpg" class="img-fluid rounded-start" alt="...">
+            <img src="245426955_615771919777505_7455513779963703228_n.jpg" class="img-fluid rounded-start" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
