@@ -89,7 +89,7 @@
             <h4 class="my-0 fw-normal">หายป่วยกลับบ้าน</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title"><?php echo $data[0]->total_case_excludeabroad; ?><small class="text-muted fw-light"> คน</small></h1>
+            <h1 class="card-title pricing-card-title"><?php echo $data[0]->new_recovered; ?><small class="text-muted fw-light"> คน</small></h1>
           </div>
         </div>
       </div>
@@ -157,11 +157,11 @@
                 echo "</td>";
   
                 echo "<td>";
-                echo $val->total_case;
+                echo $val->new_recovered;
                 echo "</td>";
   
                 echo "<td>";
-                echo $val->new_death;
+                echo $val->total_case;
                 echo "</td>";
   
                 echo "<td>";
